@@ -1,9 +1,13 @@
-<!DOCTYPE html>
+
+  <!DOCTYPE html>
 <html>
 <head>
 <title>Lily Forman</title>
 
-  <h1>Lily Forman</h1>
+
+  
+ <h1 onmouseover="style.color='pink'" onmouseout="style.color='purple'">Lily Forman</h1>
+ 
    div.relative {
     position: relative;
     left: 20px;
@@ -11,6 +15,7 @@
 }
 
   
+ 
 <img src="http://i.imgur.com/0VBgukz.png" alt="My dog and I" style="float:left;width:100px;height:100px;">
 
   </head>
@@ -33,12 +38,15 @@ font-size:20px;>My Work</h4>
 font-size:20px;>Contact Information</h5>
 }
     
+
+    
   </style>
   
 <button onclick="About_Me.....()">About Me</button>
   <button onclick="My Favorite Websites....()">My Favorite Websites</button>
   <button onclick="My Work....()">My Work</button>
   <button onclick="Contact Information....()">Contact Me</button>
+  <button onclick="Contact Information....()">Sorry my website is a mess!</button>
 
 <script>
 function About_Me() {
@@ -49,19 +57,24 @@ function About_Me() {
 
 <p id="demo"></p>
   
- <html>
-   <body>
+ <html> 
+ <body> 
+
+ <br>
+ <br>
+ <br>
+  <h2 onmouseover="style.color='pink'" onmouseout="style.color='purple'">About Me</h2>
  
- <br>
- <br>
- <br>
- <h3>About Me</h3>
+
  
   <p id="demo">Click the button to read a little bit about me!</p>
 
-<button type="button" onclick='document.getElementById("demo").innerHTML = "My name is Lily Forman, and I am a rising senior at Hillsdale High School in San Mateo, California. This summer, I am participating in the Girls Who Code Summer Immersion Program at Twitter in San Francisco! I am learning all about computer science, as well as possible careers. In my free time, I love to go on walks and play with my dog, Oreo, or hang out with my friends. I also enjoy watching TV, eating, and doing community service at the SPCA or through school clubs. When I get the opportunity, I also love traveling. I have been to several different countries, one of the most memorable being Japan!"'>BUTTON</button>
-   </body>
+<button type="button" onclick='document.getElementById("demo").innerHTML = "My name is Lily Forman, and I am a rising senior at Hillsdale High School in San Mateo, California. This summer, I am participating in the Girls Who Code Summer Immersion Program at Twitter in San Francisco! I am learning all about computer science, as well as possible careers. In my free time, I love to go on walks and play with my dog, Oreo, or hang out with my friends. I also enjoy watching TV, eating, and doing community service at the SPCA or through school clubs. When I get the opportunity, I also love traveling. I have been to several different countries, one of the most memorable being Japan!"'
+onmouseout()>BUTTON</button>
+
+  </body>
   </html>
+  
   
 <!--   <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'About Me.....')">About Me</button>
@@ -70,23 +83,20 @@ function About_Me() {
     <button class="tablinks" onclick="openCity(event, 'Contact Me....')">Contact Me</button>
 </div> -->
 
-<!-- <div id="" class="tabcontent">
-  <h3>About Me</h3>
-  <p>My name is Lily Forman, and I am a rising senior at Hillsdale High School in San Mateo, California. This summer, I am participating in the Girls Who Code Summer Immersion Program at Twitter in San Francisco! I am learning all about computer science, as well as possible careers. In my free time, I love to go on walks and play with my dog, Oreo, or hang out with my friends. I also enjoy watching TV, eating, and doing community service at the SPCA or through school clubs. When I get the opportunity, I also love traveling. I have been to several different countries, one of the most memorable being Japan!</p>
-</div> -->
+<div id="" class="tabcontent">
+  
+</div>
 
 <div id="My Favorite Websites" class="tabcontent">
-  <h3>My Favorite Websites</h3>
+ <h3 onmouseover="style.color='pink'" onmouseout="style.color='purple'">My Favorite Websites</h3>
   <a href="https://www.amazon.com">You can buy almost anything here!</a>
                                                     
              <br>
              <a href="https://buzzfeed.com">This gives you the daily scoop! </a>
              <br>
                                                                              <a href="https://www.netflix.com">Be careful with this one. You can spend days here and forget about all of your responsibilities.</a> 
-</div>
 
-<div id="My Work" class="tabcontent">
-  <h3>My Work</h3>
+   <h1 onmouseover="style.color='pink'" onmouseout="style.color='purple'">My Work</h1>
   <p>During the first week of the program, we got familiar with Scratch, and began creating our own games! With my partner, Stephanie, I created a simple, point-based game that anyone can play! The goal is to use the space bar to help the firefighter jump from building to building, without touching the fire. The farther you go, the more points you get..</p>
 </div>
   
@@ -109,7 +119,7 @@ function About_Me() {
                                                                              <a href="https://www.netflix.com">Be careful with this one. You can spend days here and forget about all of your responsibilities.</a> -->
                                                    
                                                                           <br>
-<h4>My Work</h4>                             
+ <h4 onmouseover="style.color='pink'" onmouseout="style.color='purple'">My Work</h4>                             
 <!--   <p>During the first week of the program, we got familiar with Scratch, and began creating our own games! With my partner, Stephanie, I created a simple, point-based game that anyone can play! The goal is to use the space bar to help the firefighter jump from building to building, without touching the fire. The farther you go, the more points you get. </p> -->
 
 
@@ -119,13 +129,36 @@ function About_Me() {
     left: 20px;
     border: 3px solid #73AD21;
 }
-<img src="http://i.imgur.com/UASGxXw.png" style="width:240px;height:200px;">     
-  
+
+
+<img src="http://i.imgur.com/UASGxXw.png" style="width:240px;height:200px;">   
+
+
+<!--<img 
+
+img onmouseover="bigImg("http://i.imgur.com/UASGxXw.png" style="width:240px;height:200px;")" onmouseout="normalIMg(http://i.imgur.com/UASGxXw.png) style="width:240px;height:200px;">)"
+border="0" src="http://i.imgur.com/UASGxXw.png" style="width:240px;height:200px;" alt="http://i.imgur.com/UASGxXw.png" height="42" width="42"> 
+}
+
+<script>
+function bigIMG(x) {
+	x.style.height = "240px";
+    x.style.width = "240px";
+    }
+    
+function normalImg(x) {
+	x.style.height = "120px";
+    x.style.width = "120px";
+    }
+
+</script>
+-->
+
+
+
+
 <hr>
 
-  
-  
-  
                                                                                                               <p>I also created a paddle ball game with Nicole, where two players can use the same computer to compete against each other. </p>
                                                  
 
@@ -139,23 +172,24 @@ function About_Me() {
 
                                                          <img src="http://i.imgur.com/5elZRwW.png" style="width:260px;height:200px;">                                                     
                                                        
-
+ 
 <p> Here's a photo I edited with code! </p>
 
-                                                
- div.relative {
+div.relative {
     position: relative;
     left: 20px;
     border: 3px solid #73AD21;
 }
-
                                                         <img src="http://imgur.com/pLkT7nK.png" style="width:230px;height:250px;">
                                                     
 
                                                      
                                                      <hr>
                                                     
-<h5>Contact Information</h5>
+ <h5 onmouseover="style.color='pink'" onmouseout="style.color='purple'">Contact Information</h5>
+                                                   
+ 
+
                                                      
                                                    <address> 
                                            
