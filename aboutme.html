@@ -1,43 +1,46 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <center>
 <head>
 
 
-<div class="btn-group">
-  <button>About</button>
-  <button>Work</button>
-  <button>Contact</button>
-</div>
-
-<br>
-<br>
 <title>Lily Forman</title>
 
-
- <h1 onmouseover="style.color='pink'" onmouseout="style.color='purple'">Lily Forman</h1>
+ <h1 onmouseover="style.color='pink'" onmouseout="style.color='black'">Lily Forman</h1>
  
-<img src="http://i.imgur.com/0VBgukz.png" alt="My dog and I" style="float:left;width:100px;height:100px;">
-
+ <img src="http://i.imgur.com/0VBgukz.png" border="2" alt="My dog and I" width="220" height="200" name="image_3"
+onmouseover="image_3.width='330';image_3.height='300';"
+onmouseout="image_3.width='220';image_3.height='200';"/>    
+    <br>                                                      
+<br>
   </head>
+
+<div class="btn-group">
+<a class>
+  <a href="#about"><button>About</button></a>
+  <a href="#work"><button>Work</button></a>
+  <a href="#contact"><button>Contact</button>
+ </a class> 
+</div> 
+
 
   <style>
   
   .btn-group button {
     background-color: black;
-    border: 5px solid green;
+    border: "white";
     color: grey; /* White text */
     padding: 15px 45px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
-    float: left; /* Float the buttons side by side */
+    float: center; /* Float the buttons side by side */
 }
   .btn-group button:hover {
-    background-color: lavender;
+    background-color: white;
 }
  
   
-  body {background-color:turquoise;
-  color:purple;
+  body {background-color:lavender;
+  color:black;
   font-family:verdana;
   }
   
@@ -53,27 +56,26 @@ font-size:20px;>My Work</h4>
  h5 {
 font-size:20px;>Contact Information</h5>
 }
+
+body { border: double 5px;}
    
   </style>
 
+ <br>
+  <div id="about"<ahref="about"><h4 onmouseover="style.color='pink'" onmouseout="style.color='black'"></a>About Me</h4></div>
 
- <br>
- <br>
- <br>
-  <h2 onmouseover="style.color='pink'" onmouseout="style.color='purple'">About Me</h2>
- 
 
- 
-  <p id="demo">Click the button to read a little bit about me!</p>
+<p id="demo">Click the button to read a little bit about me!</p>
+
 
 <button type="button" onclick='document.getElementById("demo").innerHTML = "My name is Lily Forman, and I am a rising senior at Hillsdale High School in San Mateo, California. This summer, I am participating in the Girls Who Code Summer Immersion Program at Twitter in San Francisco! I am learning all about computer science, as well as possible careers. In my free time, I love to go on walks and play with my dog, Oreo, or hang out with my friends. I also enjoy watching TV, eating, and doing community service at the SPCA or through school clubs. When I get the opportunity, I also love traveling. I have been to several different countries, one of the most memorable being Japan!"'
-onmouseout()>BUTTON</button>
-
+onmouseout()>Click!</button>
   </body>
   </html>
   
+  <hr>
  
- <h3 onmouseover="style.color='pink'" onmouseout="style.color='purple'">My Favorite Websites</h3>
+ <h4 onmouseover="style.color='pink'" onmouseout="style.color='purple'">My Favorite Websites</h4>
 
   <a href="https://www.amazon.com">You can buy almost anything here!</a>
                                                     
@@ -82,47 +84,41 @@ onmouseout()>BUTTON</button>
              <br>
                                                                              <a href="https://www.netflix.com">Be careful with this one. You can spend days here and forget about all of your responsibilities.</a> 
 
-  <h4 onmouseover="style.color='pink'" onmouseout="style.color='purple'">My Work</h4>                             
-  <p>During the first week of the program, we got familiar with Scratch, and began creating our own games! With my partner, Stephanie, I created a simple, point-based game that anyone can play! The goal is to use the space bar to help the firefighter jump from building to building, without touching the fire. The farther you go, the more points you get..</p>
+<hr>
+  <div id="work"><a href="work"><h4 onmouseover="style.color='pink'" onmouseout="style.color='purple'"></a>My Work</h4></div>                      
+  
+  <p>During the first week of the program, we got familiar with Scratch, and began creating our own games! With my partner, Stephanie, I created a simple, point-based game that anyone can play! The goal is to use the space bar to help the firefighter jump from building to building, without touching the fire. The farther you go, the more points you get.</p>
 </div>
  
                    <br>                                                                            
-  <img src="http://i.imgur.com/UASGxXw.png" width="250" height="200" name="image_0"
-onmouseover="image_0.width='480';image_0.height='400';"
+  <img src="http://i.imgur.com/UASGxXw.png" width="240" height="200" name="image_0"
+onmouseover="image_0.width='360';image_0.height='300';"
 onmouseout="image_0.width='240';image_0.height='200';"/>    
-                                                            
-
-
-<hr>
+ 
                                                                         <p>I also created a paddle ball game with Nicole, where two players can use the same computer to compete against each other. </p>
                                                  
                                                                                        
-  <img src="http://i.imgur.com/5elZRwW.png" width="300" height="255" name="image_1"
-onmouseover="image_1.width='480';image_1.height='400';"
-onmouseout="image_1.width='300';image_1.height='255';" />    
+  <img src="http://i.imgur.com/5elZRwW.png" width="240" height="191.25" name="image_1"
+onmouseover="image_1.width='400';image_1.height='318.75';"
+onmouseout="image_1.width='240';image_1.height='191.25';" />    
                                                               
  
-<p> Here's a photo I edited with code! </p>
+<p> Here's a photo I edited using python! </p>
                                       
                                                
   <img src="http://imgur.com/pLkT7nK.png" width="190" height="220" name="image_2"
-onmouseover="image_2.width='380';image_2.height='440';"
+onmouseover="image_2.width='285';image_2.height='330';"
 onmouseout="image_2.width='190';image_2.height='220';"/>    
                                                                                                                                
-                                                     
-
-                                                     
-                                                     <hr>
-                                                    
- <h5 onmouseover="style.color='pink'" onmouseout="style.color='purple'">Contact Information</h5>
-                                                   
- 
-
+                                                
+                   <hr>                                 
+<div id="contact"><a href="contact"><h5 onmouseover="style.color='pink'" onmouseout="style.color='purple'"></a>Contact Information</h5></div>
                                                      
                                                    <address> 
                                            
                                              Email:lily.forman@yahoo.com <br>
                                              Follow me on Instagram! @lily_forman  <br>
-                                             Follow my dog on Instagram! @oreo_6.6.10  <br>
+                                           
                                              Cell Phone:(650)619-5989<br>
+                                             <br>
                                               </address>
