@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html>
 <title>Title of page</title>
+<center>
+
+<h1>FemShark</h1>
+
+
+<style>
+
+
+body
+ {
+ background-color:#AFEEEE;
+ }
+ 
+ p {
+    font-family: "Courier New", Times, serif;
+}
+ 
+ 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
@@ -37,4 +55,3 @@ function carousel() {
 
 </body>
 </html>
-
