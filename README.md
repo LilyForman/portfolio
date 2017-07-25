@@ -51,7 +51,7 @@ function carousel() {
 }
 </script>
 
-<p> Talk about mission……...</p>
+<p> [name of website] is founded by girls, for girls. [name of website] strives to provide resources to female high school students, helping them gain exposure to a variety of opportunities. We want all females to feel empowered and able to search for internships, volunteer opportunities, scholarships, test preparation services, or simply ask for advice. </p>
 
 </body>
 </html>
