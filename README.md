@@ -28,7 +28,7 @@ body
 
 <h2 class="w3-center">Pictures</h2>
 
-<div class="w3-content w3-section" style="max-width:500px">
+<div class="w3-content w3-section" style="max-width:700px">
   <img class="mySlides" src="img_la.jpg" style="width:100%">
   <img class="mySlides" src="img_ny.jpg" style="width:100%">
   <img class="mySlides" src="img_chicago.jpg" style="width:100%">
