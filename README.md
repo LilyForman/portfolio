@@ -8,6 +8,13 @@
 
 <style>
 
+h1 {
+
+  font-family: Caflisch Script Pro, cursive;
+  font-size: 50px;
+
+}
+
 button {
    background-color: #4CAF50; /* Green */
     border: none;
