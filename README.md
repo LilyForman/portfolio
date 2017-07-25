@@ -8,6 +8,23 @@
 
 <style>
 
+button {
+   background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button {background-color: #555555;} 
+
+
+button {border-radius: 12px;}
+
 
 body
  {
@@ -51,7 +68,13 @@ function carousel() {
 }
 </script>
 
-<p> [name of website] is founded by girls, for girls. [name of website] strives to provide resources to female high school students, helping them gain exposure to a variety of opportunities. We want all females to feel empowered and able to search for internships, volunteer opportunities, scholarships, test preparation services, or simply ask for advice. </p>
+<button type="button" onClick="parent.open('https://www.stanthonysf.org/servehopenow/?gclid=EAIaIQobChMI7b39tKil1QIVgWd-Ch0FAQmuEAAYAyAAEgIMnPD_BwE')" <button>Volunteering</button> <button type="button" onClick="parent.open('https://www.scholarships.com/')"<button>Scholarships</button> <button type="button" onClick="parent.open('https://career.berkeley.edu/Internships/IntCurrent')" <button> Internships </button> 
+
+
+
+
+<p>[name of website] is founded by girls, for girls. [name of website] strives to provide resources to female high school students, helping them gain exposure to a variety of opportunities. We want all females to feel empowered and able to search for internships, volunteer opportunities, scholarships, test preparation services, or simply ask for advice.
+</p>
 
 </body>
 </html>
